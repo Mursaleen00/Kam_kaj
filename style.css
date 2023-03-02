@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+    padding: 0px;
+font-family:sans-serif;    
+}
+
+
+.nav_main{
+    background-image: url(./Img/slider-bg-gray.png);
+    background-repeat: no-repeat;
+}
+@font-face {
+    font-family: my_font;
+    src: url(https://www.kamkaj.pk/Content/fonts/Poppins-Bold.woff2);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.ul1{
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+    margin: 30px;
+}
+
+.nav_img{
+    width: auto;
+    height: 50px;
+    margin: 30px;
+}
+
+
+
+.nav_h1_spain{
+    color: #f86202;
+}
+
+
+.nav_h1_section{
+    color: #38495a;
+    margin: 15px;
+    width: auto;
+
+}
+
+.nav_p{
+    margin: 15px;
+    line-height: 25px;
+    color: #38495a;
+}
+
+.nav_p_section{
+    width: 550px;
+}
+
+
+
+.nav2_main{
+    display: flex;
+}
+
+
+.nav2_drapdown_1{
+    padding: 10px 20px;
+    padding-right: 50px;
+    margin: 20px;
+    margin-right: 0px;
+    border: none;
+    box-shadow: 5px 2px 5px gray;
+}
+
+.nav_option{
+    border: none;
+}
+
+.nav_input{
+    /* margin: 0px; */
+    padding: 7px 30px;
+    padding-right: 300px;
+    border: none;
+    box-shadow: 5px 2px 5px gray;
+    margin-left: -5px;
+    margin-right: 20px;
+}
+
+.nav_h1{
+    margin: 20px;
+}
+
+.nav2_input_section{
+    
+    background-image: url(./Img/book-form-bg.png);
+    background-repeat: no-repeat;
+}
+
+.nav2_input_heading{
+    color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+.nav2_main_start{
+    justify-content: space-between;
+    column-gap: 20px;
+
+}
+
+
+
+
+
+.nav_2_input_Section{
+   width: 85%;
+   margin: 10px 20px;  
+   padding: 5px; 
+   border-radius: 5px;
+   margin-top: -1px;
+}
+
+.buton_nav{
+ background-color: #f86202;
+ color: white;
+}
+
+
+.hero_start{
+    text-align: center;
+}
+
+
+.hero_img_1{
+    width: 90px;
+    height: 90px;
+}
+
+.hero_img{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    padding-right: 1px;
+    margin: 5px;
+} 
+.hero_img_2{
+    text-align: center;
+    padding: 5px;
+}
+
+
+.card_img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.img2{
+    margin-top: 20px;
+}
+
+
+.card_row{
+    border: none;
+}
+
+
+.card_button{
+    position: relative;
+    top: -50px;
+    left: 15px;
+    padding: 5px 80px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+/* Footer */
+
+
+
+
+.ooter_main{
+    background-image: url(./Img/footer-bg.png);
+    /* background-repeat: no-repeat; */
+}
+
+.footer_img{
+    width: 200px;
+    height: auto;
+}
+
+
+.footer_main{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 30px;
+}
+
+
+.footer_ul{
+    
+    list-style: none;
+    margin-top: -70px;
+}
+
+li a{
+    text-decoration: wavy;
+    color: white;
+    padding-left: 100px
+}
+
+.footer_p{
+    margin-top: -50px;
+}
